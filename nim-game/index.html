@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo do NIM</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,400;0,600;1,400&family=Michroma&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+
+<body>
+  <div class="game-container">
+    <h1>Jogo do NIM</h1>
+    <div class="player-turn">É a sua vez!</div>
+    <div class="piles">
+      <div class="pile" id="pile1"></div>
+      <div class="pile" id="pile2"></div>
+      <div class="pile" id="pile3"></div>
+    </div>
+    <div class="controls">
+      <label for="pile-select">Escolha uma pilha:</label>
+      <select id="pile-select">
+        <option value="1">Pilha 1</option>
+        <option value="2">Pilha 2</option>
+        <option value="3">Pilha 3</option>
+      </select>
+      <label for="stones-select">Quantidade de pedras:</label>
+      <input type="number" id="stones-select" min="1" max="3">
+      <button id="take-stones">Remover pedras</button>
+    </div>
+    <div class="game-over">
+      <h2>Fim do jogo!</h2>
+      <p>O vencedor é o <span id="winner"></span>.</p>
+      <button id="play-again">Jogar novamente</button>
+    </div>
+  </div>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
