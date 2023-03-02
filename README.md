@@ -14,7 +14,7 @@ Esta é uma implementação do Jogo do NIM em JavaScript. A aplicação permite 
 Um dos principais desafios no desenvolvimento deste jogo foi implementar a lógica para determinar o vencedor. Também foi necessário trabalhar com manipulação do DOM para atualizar a interface do usuário de acordo com as jogadas dos jogadores.
 
 ## Link para o jogo
-Acesse o jogo em https://github.com/.
+Acesse o jogo em https://github.com/MateusBorgesGuimaraes/Nim-Game.
 
 ## Regras do Jogo
 - O jogo é jogado com 3 pilhas de pedras, com 3, 4 e 5 pedras em cada pilha.
